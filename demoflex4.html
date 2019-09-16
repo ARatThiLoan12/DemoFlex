@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		.a{
+			background : red;
+			flex-grow: 1;
+		}
+		.b{
+			background : green;
+			flex-grow :1;
+		}
+		.c{
+			background: blue;
+			flex-grow : 1;
+		}
+		.flex{
+			display: flex;
+		}
+		@media only screen and (min-width: 600px) {
+			.contain{
+				flex-direction: row;
+			}
+		}
+	</style>
+</head>
+<body>
+	<div class="flex">
+		<div class="a">A</div>
+		<div class="b">B</div>
+		<div class="c">C</div>
+	</div>
+</body>
+</html>
